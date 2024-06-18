@@ -1,0 +1,23 @@
+Microsoft Windows [Version 10.0.22631.3737]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\web\e-shop>npm i -s pg pg-hstore sequelize
+
+D:\web\e-shop>npm i -g sequelize-cli
+
+added 1 package, and changed 98 packages in 11s
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+
+D:\web\e-shop>sequelize init
+
+Sequelize CLI [Node: 20.13.0, CLI: 6.6.2, ORM: 6.37.3]
+
+Created "config\config.json"
+Successfully created models folder at "D:\web\e-shop\models".
+Successfully created migrations folder at "D:\web\e-shop\migrations".
+Successfully created seeders folder at "D:\web\e-shop\seeders".
+
+D:\web\e-shop>sequelize model:create --name Product --attributes name:string,imagePath:string  
