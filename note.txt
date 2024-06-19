@@ -25,3 +25,4 @@ sequelize model:create --name Image --attributes name:string,imagePath:string
 
 
 sequelize seed:generate --name Brand
+sequelize db:seed:all
