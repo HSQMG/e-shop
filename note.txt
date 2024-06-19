@@ -21,3 +21,7 @@ Successfully created migrations folder at "D:\web\e-shop\migrations".
 Successfully created seeders folder at "D:\web\e-shop\seeders".
 
 D:\web\e-shop>sequelize model:create --name Product --attributes name:string,imagePath:string  
+sequelize model:create --name Image --attributes name:string,imagePath:string
+
+
+sequelize seed:generate --name Brand

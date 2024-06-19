@@ -12,7 +12,7 @@ app.engine('hbs',expressHandlebars.engine({
     extname:'hbs',
     defaultLayout:'layout'
 }));
-app.set('view engine', 'hbs');
+app.set('view engine','hbs');
 
 //routes
 app.get("/createTables", (req, res) => {
